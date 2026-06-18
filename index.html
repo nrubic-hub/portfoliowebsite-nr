@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nikola Rubic Portfolio | Architecture & Project Development</title>
+  <meta name="description" content="Bilingual architecture and project development portfolio of Nikola Rubic.">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Nikola Rubic Portfolio</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" aria-current="page" data-i18n="navHome">Home</a>
+      <a href="projects.html" data-i18n="navProjects">Projects</a>
+      <a href="cv.html" data-i18n="navProfile">Profile</a>
+    </nav>
+    <div class="tools">
+      <button class="tool menu-button" data-menu aria-label="Menu">Menu</button>
+      <button class="tool" data-lang-button="en" aria-pressed="true">EN</button>
+      <button class="tool" data-lang-button="de">DE</button>
+      <button class="tool" data-theme-toggle>Dark</button>
+    </div>
+  </header>
+  <main class="page">
+    <section class="hero" data-hero-carousel>
+      <img data-hero-image src="Hammerwerk%20Stuttgart/Renderings/01%20courtyard%20015%20V1.jpg" alt="Architectural courtyard rendering">
+      <div class="hero-content">
+        <p class="kicker">Nikola Rubic</p>
+        <h1 data-i18n="heroTitle">Architecture & Project Development Portfolio</h1>
+        <p class="lead" data-i18n="homeLead">Selected architectural work across competitions, concept design, development studies and presentation.</p>
+        <a class="hero-project-link" data-hero-project-link href="project.html?id=hammerwerk-stuttgart">
+          <span data-hero-project-meta>Stuttgart / Acquisition</span>
+          <strong data-hero-project-title>Hammerwerk Stuttgart</strong>
+        </a>
+        <div class="hero-dots" data-hero-dots aria-label="Featured projects"></div>
+        <div class="button-row">
+          <a class="button" href="projects.html" data-i18n="viewProjects">View Projects</a>
+          <a class="button secondary" href="04_CV_Bewerbung/Nikola%20Rubic%20CV%202025.pdf" data-i18n="downloadCv">Download CV</a>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section-head reveal">
+        <h2 data-i18n="featured">Featured Projects</h2>
+        <p class="lead" data-i18n="featuredText">Selected work across mixed-use quarters, civic interiors, residential development and adaptive reuse.</p>
+      </div>
+      <div class="project-grid" data-project-grid data-limit="6"></div>
+    </section>
+    <section class="section tight">
+      <div class="section-head simple-head reveal">
+        <h2 data-i18n="expertise">Expertise</h2>
+      </div>
+      <div class="expertise">
+        <article class="reveal"><p class="kicker">01</p><h3 data-i18n="expertArchitecture">Architecture</h3><p data-i18n="architectureCopy">Concept, competition, typology, atmosphere and precise design narratives for complex urban projects.</p></article>
+        <article class="reveal"><p class="kicker">02</p><h3 data-i18n="expertDevelopment">Development</h3><p data-i18n="developmentCopy">Translating constraints, BGF, mix, phasing and stakeholder expectations into strong project logic.</p></article>
+        <article class="reveal"><p class="kicker">03</p><h3 data-i18n="expertFutures">Portfolio Communication</h3><p data-i18n="futuresCopy">Clear visual narratives, structured project data and presentation material for applications and acquisition.</p></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>Nikola Rubic Portfolio</span><a href="impressum.html">Impressum</a></footer>
+</body>
+</html>
+
