@@ -3,7 +3,7 @@
     navHome: "Home",
     navProjects: "Projects",
     navProfile: "Profile",
-    heroTitle: "Architecture & Project Development Portfolio",
+    heroTitle: "Architecture & Project Development",
     homeLead: "Selected architectural work across competitions, concept design, development studies and presentation.",
     featured: "Selected Projects",
     featuredText: "Real project work from the existing portfolio archive.",
@@ -31,9 +31,9 @@
     architectureCopy: "Concept, competition, typology, atmosphere and precise design narratives for complex urban projects.",
     expertArchitecture: "Architecture",
     expertDevelopment: "Development",
-    expertFutures: "Portfolio Communication",
+    expertFutures: "Architectural Transformation",
     developmentCopy: "Translating constraints, floor area, mix, phasing and stakeholder expectations into strong project logic.",
-    futuresCopy: "Clear visual narratives, structured project data and presentation material for applications and acquisition.",
+    futuresCopy: "Reworking existing structures, urban contexts and development constraints into precise architectural value.",
     contactHero: "Get in touch.",
     profileLabel: "Profile",
     profileTitle: "Architect & Project Developer",
@@ -43,7 +43,7 @@
     softwareTitle: "CAD, BIM, Visualization",
     languagesLabel: "Languages",
     languagesTitle: "German, Croatian, English",
-    profileCopy: "Over 10 years of experience in complex building projects with focus on residential, office and mixed-use assets.",
+    profileCopy: "Around 15 years of experience in complex building projects with focus on residential, office and mixed-use assets.",
     educationCopy: "Architecture: Housing M.Sc., Hochschule Mainz. Dipl.-Ing. Architecture, Hochschule RheinMain. Real Estate Economics, EBS.",
     softwareCopy: "ArchiCAD, AutoCAD, Revit, Rhino, SketchUp, Cinema 4D, V-Ray, Twinmotion, Adobe Creative Suite and BKI.",
     languagesCopy: "German and Croatian at native level; English for professional communication.",
@@ -57,7 +57,7 @@
     navHome: "Start",
     navProjects: "Projekte",
     navProfile: "Profil",
-    heroTitle: "Architektur & Projektentwicklung Portfolio",
+    heroTitle: "Architektur & Projektentwicklung",
     homeLead: "Ausgew\u00e4hlte Architekturarbeiten aus Wettbewerb, Konzept, Projektentwicklung und Pr\u00e4sentation.",
     featured: "Ausgew\u00e4hlte Projekte",
     featuredText: "Reale Projektarbeiten aus der vorhandenen Portfolio-Struktur.",
@@ -85,9 +85,9 @@
     architectureCopy: "Konzept, Wettbewerb, Typologie, Atmosph\u00e4re und pr\u00e4zise Entwurfsnarrative f\u00fcr komplexe urbane Projekte.",
     expertArchitecture: "Architektur",
     expertDevelopment: "Projektentwicklung",
-    expertFutures: "Portfolio-Kommunikation",
+    expertFutures: "Transformation",
     developmentCopy: "\u00dcbersetzung von Rahmenbedingungen, Fl\u00e4chen, Nutzungsmix, Phasierung und Stakeholder-Erwartungen in eine starke Projektlogik.",
-    futuresCopy: "Klare visuelle Narrative, strukturierte Projektdaten und Pr\u00e4sentationsmaterial f\u00fcr Bewerbung und Akquisition.",
+    futuresCopy: "Weiterdenken von Bestand, Kontext und Entwicklungslogik zu pr\u00e4zisen architektonischen Mehrwerten.",
     contactHero: "Kontakt aufnehmen.",
     profileLabel: "Profil",
     profileTitle: "Architekt & Projektentwickler",
@@ -97,13 +97,13 @@
     softwareTitle: "CAD, BIM, Visualisierung",
     languagesLabel: "Sprachen",
     languagesTitle: "Deutsch, Kroatisch, Englisch",
-    profileCopy: "\u00dcber 10 Jahre Erfahrung in komplexen Hochbauprojekten mit Schwerpunkt Wohn-, B\u00fcro- und Mixed-Use-Immobilien.",
+    profileCopy: "Rund 15 Jahre Erfahrung in komplexen Hochbauprojekten mit Schwerpunkt Wohn-, B\u00fcro- und Mixed-Use-Immobilien.",
     educationCopy: "Architektur: Wohnungsbau M.Sc., Hochschule Mainz. Dipl.-Ing. Architektur, Hochschule RheinMain. Immobilien\u00f6konomie, EBS.",
     softwareCopy: "ArchiCAD, AutoCAD, Revit, Rhino, SketchUp, Cinema 4D, V-Ray, Twinmotion, Adobe Creative Suite und BKI.",
     languagesCopy: "Deutsch und Kroatisch auf muttersprachlichem Niveau; Englisch f\u00fcr professionelle Kommunikation.",
     timelineCurrent: "Konzept- und Entwurfsverantwortung f\u00fcr Wettbewerbe, Akquisition und fr\u00fche Projektentwicklungsphasen.",
     timelineFounder: "Eigenes Architekturb\u00fcro mit Fokus auf Konzeptentwurf, Generalplanung, Akquisition sowie Wohn- und Gewerbebau.",
-    timelineLecturer: "Privatdozent f\u00fcr Architekturentwurf mit Schwerpunkt \u00f6ffentliche Bauten und praxisorientierte Studiolehre.",
+    timelineLecturer: "Privatdozent f\u00fcr Architekturentwurf mit Schwerpunkt \u00f6ffentliche Bauten und praxisorientierte Entwurfslehre.",
     timelineDeveloper: "Projektentwicklung f\u00fcr Wohn- und B\u00fcroprojekte, LPH 1-4, Machbarkeit, Kalkulation und Koordination.",
     timelineMsm: "Projektleitender Architekt f\u00fcr Entwurf und Akquisition; sp\u00e4ter Teamleitung f\u00fcr Wettbewerbe und gro\u00dfma\u00dfst\u00e4bliche Konzepte."
   }
@@ -122,7 +122,7 @@ const projects = [
     employer: "msm architekten",
     position: "Entwurfsleiter",
     responsibilities: "Thesis concept, urban diagrams, architectural narrative, presentation",
-    hero: "Bonit\u00fcrme Mainz/Render/entrance.jpeg",
+    hero: "Bonit\u00fcrme Mainz/Render/1.jpeg",
     gallery: ["Bonit\u00fcrme Mainz/Render/entrance.jpeg", "Bonit\u00fcrme Mainz/Render/1.jpeg", "Bonit\u00fcrme Mainz/Render/2.jpeg", "Bonit\u00fcrme Mainz/Render/3.jpeg", "Bonit\u00fcrme Mainz/Render/grundriss.jpeg"],
     en: {
       overview: "A thesis project for a headquarter at Mainz Zollhafen, positioned as a precise urban marker between city, station context and river landscape.",
@@ -398,8 +398,8 @@ function setLanguage(lang) {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     el.textContent = t(el.dataset.i18n);
   });
-  document.querySelectorAll("[data-lang-button]").forEach((button) => {
-    button.setAttribute("aria-pressed", String(button.dataset.langButton === lang));
+  document.querySelectorAll("[data-lang-select]").forEach((select) => {
+    select.value = lang;
   });
   renderDynamic();
 }
@@ -475,16 +475,20 @@ function renderCarousel() {
 function renderHeroCarousel() {
   const root = document.querySelector("[data-hero-carousel]");
   if (!root) return;
+  const heroProjects = ["mika-dresden", "voelklinger-strasse-duesseldorf"]
+    .map((id) => projects.find((project) => project.id === id))
+    .filter(Boolean)
+    .concat(projects.filter((project) => !["mika-dresden", "voelklinger-strasse-duesseldorf"].includes(project.id)));
   clearInterval(heroTimer);
   const image = root.querySelector("[data-hero-image]");
   const link = root.querySelector("[data-hero-project-link]");
   const title = root.querySelector("[data-hero-project-title]");
   const meta = root.querySelector("[data-hero-project-meta]");
   const dots = root.querySelector("[data-hero-dots]");
-  dots.innerHTML = projects.map((project, index) => `<button type="button" data-hero-dot="${index}" aria-label="${project.title}"></button>`).join("");
+  dots.innerHTML = heroProjects.map((project, index) => `<button type="button" data-hero-dot="${index}" aria-label="${project.title}"></button>`).join("");
   const show = (index) => {
-    heroIndex = (index + projects.length) % projects.length;
-    const project = projects[heroIndex];
+    heroIndex = (index + heroProjects.length) % heroProjects.length;
+    const project = heroProjects[heroIndex];
     image.src = asset(project.hero);
     image.alt = project.title;
     link.href = `project.html?id=${project.id}`;
@@ -644,14 +648,16 @@ function reveal() {
 function init() {
   setTheme(localStorage.getItem("rubic-theme") || "light");
   setLanguage(localStorage.getItem("rubic-lang") || "en");
-  document.querySelectorAll("[data-lang-button]").forEach((button) => {
-    button.addEventListener("click", () => setLanguage(button.dataset.langButton));
+  document.querySelectorAll("[data-lang-select]").forEach((select) => {
+    select.addEventListener("change", () => setLanguage(select.value));
   });
   document.querySelector("[data-theme-toggle]")?.addEventListener("click", () => {
     setTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark");
   });
-  document.querySelector("[data-menu]")?.addEventListener("click", () => {
-    document.querySelector(".nav")?.classList.toggle("is-open");
+  document.querySelector("[data-menu]")?.addEventListener("click", (event) => {
+    const nav = document.querySelector(".nav");
+    nav?.classList.toggle("is-open");
+    event.currentTarget.setAttribute("aria-expanded", String(nav?.classList.contains("is-open")));
   });
 }
 

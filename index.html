@@ -17,22 +17,28 @@
       <a href="cv.html" data-i18n="navProfile">Profile</a>
     </nav>
     <div class="tools">
-      <button class="tool menu-button" data-menu aria-label="Menu">Menu</button>
-      <button class="tool" data-lang-button="en" aria-pressed="true">EN</button>
-      <button class="tool" data-lang-button="de">DE</button>
+      <label class="lang-control" aria-label="Language">
+        <select class="tool lang-select" data-lang-select>
+          <option value="en">EN</option>
+          <option value="de">DE</option>
+        </select>
+      </label>
       <button class="tool" data-theme-toggle>Dark</button>
+      <button class="tool menu-button" data-menu aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
   <main class="page">
     <section class="hero" data-hero-carousel>
-      <img data-hero-image src="Hammerwerk%20Stuttgart/Renderings/01%20courtyard%20015%20V1.jpg" alt="Architectural courtyard rendering">
+      <img data-hero-image src="MIKA%20Dresden/Rendering/4.jpeg" alt="MIKA Dresden rendering">
       <div class="hero-content">
         <p class="kicker">Nikola Rubic</p>
-        <h1 data-i18n="heroTitle">Architecture & Project Development Portfolio</h1>
+        <h1 data-i18n="heroTitle">Architecture & Project Development</h1>
         <p class="lead" data-i18n="homeLead">Selected architectural work across competitions, concept design, development studies and presentation.</p>
-        <a class="hero-project-link" data-hero-project-link href="project.html?id=hammerwerk-stuttgart">
-          <span data-hero-project-meta>Stuttgart / Acquisition</span>
-          <strong data-hero-project-title>Hammerwerk Stuttgart</strong>
+        <a class="hero-project-link" data-hero-project-link href="project.html?id=mika-dresden">
+          <span data-hero-project-meta>Dresden / 1st Prize, workshop competition</span>
+          <strong data-hero-project-title>MIKA Dresden</strong>
         </a>
         <div class="hero-dots" data-hero-dots aria-label="Featured projects"></div>
         <div class="button-row">
