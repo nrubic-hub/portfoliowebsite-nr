@@ -982,7 +982,9 @@ figcaption {
   }
 
   h1 {
-    font-size: clamp(42px, 13vw, 68px);
+    max-width: 100%;
+    font-size: clamp(30px, 8.7vw, 52px);
+    letter-spacing: 0;
   }
 
   .data-list,

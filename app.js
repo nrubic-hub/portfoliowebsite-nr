@@ -58,7 +58,7 @@
     navProjects: "Projekte",
     navProfile: "Profil",
     heroTitle: "Architektur & Projektentwicklung",
-    homeLead: "Ausgew\u00e4hlte Architekturarbeiten aus Wettbewerb, Konzept, Projektentwicklung und Pr\u00e4sentation.",
+    homeLead: "Ausgew\u00e4hlte Architekturarbeiten aus Wettbewerb, Machbarkeiten und Projektentwicklung.",
     featured: "Ausgew\u00e4hlte Projekte",
     featuredText: "Reale Projektarbeiten aus der vorhandenen Portfolio-Struktur.",
     expertise: "Kompetenzen",
@@ -115,28 +115,28 @@ const projects = [
     title: "Bonit\u00fcrme Mainz",
     city: "Mainz",
     location: "Mainz, Germany",
-    year: "2016",
+    year: "2023",
     bgf: "ca. 10,000 m2",
-    use: "Headquarter, office, urban landmark",
-    status: "Thesis project",
-    employer: "msm architekten",
-    position: "Entwurfsleiter",
-    responsibilities: "Thesis concept, urban diagrams, architectural narrative, presentation",
+    use: "Mixed-use, housing, work, public uses",
+    status: "Master thesis",
+    employer: "Hochschule Mainz",
+    position: "Masterarbeit",
+    responsibilities: "Design direction, transformation concept, mixed-use organisation, urban integration, ecological strategy, final presentation",
     hero: "Bonit\u00fcrme Mainz/Render/1.jpeg",
     gallery: ["Bonit\u00fcrme Mainz/Render/entrance.jpeg", "Bonit\u00fcrme Mainz/Render/1.jpeg", "Bonit\u00fcrme Mainz/Render/2.jpeg", "Bonit\u00fcrme Mainz/Render/3.jpeg", "Bonit\u00fcrme Mainz/Render/grundriss.jpeg"],
     en: {
-      overview: "A thesis project for a headquarter at Mainz Zollhafen, positioned as a precise urban marker between city, station context and river landscape.",
-      challenge: "The thesis had to combine a strong address with efficient office logic and a convincing urban presence.",
-      strategy: "The proposal works through clear massing, readable arrival, compact floorplates and a restrained architectural identity.",
-      outcome: "A thesis proposal with a strong architectural, urban and representational narrative.",
-      contribution: "As author of the thesis, I was responsible for the design direction, concept, urban diagrams, architectural positioning and final presentation."
+      overview: "Master thesis in housing on the transformation of an existing office tower at Mainz main station into a mixed-use building with housing, workspaces and public uses.",
+      challenge: "The existing office high-rise required a new programmatic and spatial logic that could preserve resources while opening the building to more diverse urban use.",
+      strategy: "The design works ecologically and carefully with the existing fabric: structure and available resources are reused, complemented by a new use logic, greenery and precise architectural interventions.",
+      outcome: "A transformation proposal that repositions the existing tower as a mixed-use building with residential, working and public components.",
+      contribution: "Design direction, transformation concept, mixed-use organisation, urban integration, ecological strategy and final presentation."
     },
     de: {
-      overview: "Ein Thesis-Projekt f\u00fcr ein Headquarter am Mainzer Zollhafen, als pr\u00e4ziser urbaner Marker zwischen Stadt, Bahnhofsumfeld und Rheinraum.",
-      challenge: "Die Thesis musste eine starke Adresse, effiziente B\u00fcrologik und \u00fcberzeugende st\u00e4dtebauliche Pr\u00e4senz verbinden.",
-      strategy: "Der Entwurf arbeitet mit klarer Kubatur, lesbarer Ankunft, kompakten Grundrissen und einer zur\u00fcckhaltenden architektonischen Identit\u00e4t.",
-      outcome: "Ein Thesis-Entwurf mit starker architektonischer, st\u00e4dtebaulicher und repr\u00e4sentativer Logik.",
-      contribution: "Als Verfasser der Thesis war ich verantwortlich f\u00fcr Entwurfsrichtung, Konzept, st\u00e4dtebauliche Diagramme, architektonische Positionierung und finale Pr\u00e4sentation."
+      overview: "Masterarbeit Wohnungsbau zur Transformation eines bestehenden B\u00fcrohochhauses am Mainzer Bahnhof in ein Mixed-Use-Geb\u00e4ude mit Wohnen, Arbeiten und \u00f6ffentlichen Nutzungen.",
+      challenge: "Das bestehende B\u00fcrohochhaus ben\u00f6tigte eine neue programmatische und r\u00e4umliche Logik, die Ressourcen schont und das Geb\u00e4ude f\u00fcr gemischte urbane Nutzungen \u00f6ffnet.",
+      strategy: "Der Entwurf arbeitet \u00f6kologisch und bestandsschonend: Tragstruktur und vorhandene Ressourcen werden weitergenutzt, erg\u00e4nzt durch eine neue Nutzungslogik, Begr\u00fcnung und pr\u00e4zise Eingriffe.",
+      outcome: "Ein Transformationskonzept, das das bestehende Hochhaus als Mixed-Use-Geb\u00e4ude mit Wohnen, Arbeiten und \u00f6ffentlichen Nutzungen neu positioniert.",
+      contribution: "Entwurfsrichtung, Transformationskonzept, Mixed-Use-Organisation, st\u00e4dtebauliche Einbindung, \u00f6kologische Strategie und finale Pr\u00e4sentation."
     }
   },
   {
@@ -296,8 +296,9 @@ const projectDataLabels = {
 };
 
 const deValueMap = {
-  "Headquarter, office, urban landmark": "Headquarter, B\u00fcro, urbaner Hochpunkt",
-  "Thesis project": "Thesis-Projekt",
+  "Mixed-use, housing, work, public uses": "Mixed-Use, Wohnen, Arbeiten, \u00f6ffentliche Nutzungen",
+  "Master thesis": "Masterarbeit",
+  "Hochschule Mainz": "Hochschule Mainz",
   "Adaptive reuse, office, service, warehouse": "Revitalisierung, B\u00fcro, Service, Lager",
   "Banking hall, service, public interior": "Kundenhalle, Service, \u00f6ffentlicher Innenraum",
   "Residential quarter": "Wohnquartier",
