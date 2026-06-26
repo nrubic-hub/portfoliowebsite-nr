@@ -5,13 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nikola Rubic Portfolio | Architecture & Project Development</title>
   <meta name="description" content="Bilingual architecture and project development portfolio of Nikola Rubic.">
-  <link rel="stylesheet" href="styles.css?v=20260622-gallery">
-  <script defer src="app.js?v=20260622-gallery"></script>
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#f7f4ef">
+  <link rel="canonical" href="https://nrubic-hub.github.io/portfoliowebsite-nr/">
+  <link rel="alternate" hreflang="en" href="https://nrubic-hub.github.io/portfoliowebsite-nr/?lang=en">
+  <link rel="alternate" hreflang="de" href="https://nrubic-hub.github.io/portfoliowebsite-nr/?lang=de">
+  <link rel="alternate" hreflang="x-default" href="https://nrubic-hub.github.io/portfoliowebsite-nr/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Nikola Rubic Portfolio">
+  <meta property="og:title" content="Nikola Rubic Portfolio | Architecture & Project Development">
+  <meta property="og:description" content="Architecture and project development portfolio by Nikola Rubic, featuring selected competitions, feasibility studies, transformations and mixed-use projects.">
+  <meta property="og:url" content="https://nrubic-hub.github.io/portfoliowebsite-nr/">
+  <meta property="og:image" content="https://nrubic-hub.github.io/portfoliowebsite-nr/MIKA%20Dresden/Rendering/4.jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nikola Rubic Portfolio | Architecture & Project Development">
+  <meta name="twitter:description" content="Architecture and project development portfolio by Nikola Rubic, featuring selected competitions, feasibility studies, transformations and mixed-use projects.">
+  <meta name="twitter:image" content="https://nrubic-hub.github.io/portfoliowebsite-nr/MIKA%20Dresden/Rendering/4.jpeg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" as="image" href="MIKA%20Dresden/Rendering/4.jpeg" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css?v=20260626-cv-portrait">
+  <script defer src="app.js?v=20260626-cv-portrait"></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="index.html">Nikola Rubic Portfolio</a>
-    <nav class="nav" aria-label="Primary">
+    <nav class="nav" id="primary-navigation" aria-label="Primary">
       <a href="index.html" aria-current="page" data-i18n="navHome">Home</a>
       <a href="projects.html" data-i18n="navProjects">Projects</a>
       <a href="cv.html" data-i18n="navProfile">Profile</a>
@@ -24,14 +45,14 @@
         </select>
       </label>
       <button class="tool" data-theme-toggle>Dark</button>
-      <button class="tool menu-button" data-menu aria-label="Open menu" aria-expanded="false">
+      <button class="tool menu-button" data-menu aria-label="Open menu" aria-controls="primary-navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
-  <main class="page">
+  <main class="page" id="main">
     <section class="hero" data-hero-carousel>
-      <img data-hero-image src="MIKA%20Dresden/Rendering/4.jpeg" alt="MIKA Dresden rendering">
+      <img data-hero-image src="MIKA%20Dresden/Rendering/4.jpeg" alt="MIKA Dresden architectural rendering" fetchpriority="high" decoding="async" width="1800" height="1100">
       <div class="hero-content">
         <p class="kicker">Nikola Rubic</p>
         <h1 data-i18n="heroTitle">Architecture & Project Development</h1>

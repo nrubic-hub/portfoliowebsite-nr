@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Nikola Rubic Portfolio">
+  <rect width="64" height="64" rx="12" fill="#151515"/>
+  <path d="M17 47V17h14c7 0 12 4 12 10 0 4-2 7-6 9l9 11h-9l-8-10h-5v10h-7Zm7-16h7c3 0 5-2 5-4s-2-4-5-4h-7v8Z" fill="#f7f4ef"/>
+  <path d="M48 17v30" stroke="#e7b08f" stroke-width="4" stroke-linecap="round"/>
+</svg>

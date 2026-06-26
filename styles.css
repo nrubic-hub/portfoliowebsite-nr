@@ -52,6 +52,32 @@ a {
   text-decoration: none;
 }
 
+a:focus-visible,
+button:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 100;
+  transform: translateY(-140%);
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--bg);
+  font-size: 13px;
+  font-weight: 700;
+  transition: transform 180ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -584,12 +610,22 @@ h3 {
   align-items: end;
 }
 
-.cv-portrait {
+.cv-portrait-frame {
   width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  margin: 0;
+  overflow: hidden;
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
+}
+
+.cv-portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 46% 42%;
+  transform: scale(1.08);
+  transform-origin: center;
 }
 
 .research-card,
@@ -602,6 +638,22 @@ h3 {
 
 .research-card {
   min-height: 260px;
+}
+
+.legal {
+  display: grid;
+  gap: 22px;
+}
+
+.legal .contact-panel {
+  padding: 0 0 22px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+}
+
+.legal .contact-panel:last-child {
+  border-bottom: 0;
 }
 
 .cv-panel .lead,
@@ -656,6 +708,7 @@ h3 {
 .data-list div {
   display: grid;
   grid-template-columns: minmax(140px, 0.32fr) minmax(0, 1fr);
+  align-items: center;
   gap: 24px;
   padding: 18px 0;
   border-bottom: 1px solid var(--line);
@@ -671,7 +724,7 @@ h3 {
 }
 
 .data-list dd {
-  margin: 8px 0 0;
+  margin: 0;
 }
 
 .project-data-shell {
@@ -866,6 +919,22 @@ figcaption {
   transform: translateY(0);
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @media (max-width: 920px) {
   .site-header {
     grid-template-columns: 1fr auto;
@@ -990,6 +1059,7 @@ figcaption {
 
   .data-list div {
     grid-template-columns: 1fr;
+    align-items: start;
     gap: 6px;
   }
 

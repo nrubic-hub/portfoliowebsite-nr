@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="Nikola Rubic Portfolio">
+  <rect width="180" height="180" rx="36" fill="#f7f4ef"/>
+  <rect x="18" y="18" width="144" height="144" rx="22" fill="#151515"/>
+  <path d="M50 130V50h39c19 0 33 11 33 27 0 12-7 21-18 26l25 27h-25l-21-25H70v25H50Zm20-43h19c8 0 13-4 13-10s-5-10-13-10H70v20Z" fill="#f7f4ef"/>
+  <path d="M135 50v80" stroke="#e7b08f" stroke-width="10" stroke-linecap="round"/>
+</svg>

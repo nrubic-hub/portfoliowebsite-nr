@@ -5,18 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CV | RUBIC</title>
   <meta name="description" content="CV of Nikola Rubic, architect and project developer.">
-  <link rel="stylesheet" href="styles.css?v=20260622-gallery">
-  <script defer src="app.js?v=20260622-gallery"></script>
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#f7f4ef">
+  <link rel="canonical" href="https://nrubic-hub.github.io/portfoliowebsite-nr/cv.html">
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Nikola Rubic Portfolio">
+  <meta property="og:title" content="CV and Profile | Nikola Rubic">
+  <meta property="og:description" content="Professional CV, profile, experience and education of Nikola Rubic, architect and project developer.">
+  <meta property="og:url" content="https://nrubic-hub.github.io/portfoliowebsite-nr/cv.html">
+  <meta property="og:image" content="https://nrubic-hub.github.io/portfoliowebsite-nr/04_CV_Bewerbung/gut.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CV and Profile | Nikola Rubic">
+  <meta name="twitter:description" content="Professional CV, profile, experience and education of Nikola Rubic, architect and project developer.">
+  <meta name="twitter:image" content="https://nrubic-hub.github.io/portfoliowebsite-nr/04_CV_Bewerbung/gut.jpg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" as="image" href="04_CV_Bewerbung/gut.jpg">
+  <link rel="stylesheet" href="styles.css?v=20260626-cv-portrait">
+  <script defer src="app.js?v=20260626-cv-portrait"></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="index.html">Nikola Rubic Portfolio</a>
-    <nav class="nav" aria-label="Primary">
+    <nav class="nav" id="primary-navigation" aria-label="Primary">
       <a href="index.html" data-i18n="navHome">Home</a><a href="projects.html" data-i18n="navProjects">Projects</a><a href="cv.html" aria-current="page" data-i18n="navProfile">Profile</a>
     </nav>
-    <div class="tools"><label class="lang-control" aria-label="Language"><select class="tool lang-select" data-lang-select><option value="en">EN</option><option value="de">DE</option></select></label><button class="tool" data-theme-toggle>Dark</button><button class="tool menu-button" data-menu aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button></div>
+    <div class="tools"><label class="lang-control" aria-label="Language"><select class="tool lang-select" data-lang-select><option value="en">EN</option><option value="de">DE</option></select></label><button class="tool" data-theme-toggle>Dark</button><button class="tool menu-button" data-menu aria-label="Open menu" aria-controls="primary-navigation" aria-expanded="false"><span></span><span></span><span></span></button></div>
   </header>
-  <main class="page">
+  <main class="page" id="main">
     <section class="page-hero cv-intro">
       <div>
         <p class="kicker">Curriculum Vitae</p>
@@ -24,7 +42,9 @@
         <p class="lead" data-i18n="cvLead">A structured professional profile for applications, collaborations and selected leadership roles.</p>
         <div class="button-row"><a class="button" href="04_CV_Bewerbung/Nikola%20Rubic%20CV%202026.pdf" data-i18n="downloadCv">Download CV</a></div>
       </div>
-      <img class="cv-portrait" src="04_CV_Bewerbung/gut.jpg" alt="Nikola Rubic portrait">
+      <figure class="cv-portrait-frame">
+        <img class="cv-portrait" src="04_CV_Bewerbung/gut.jpg" alt="Portrait of Nikola Rubic, architect and project developer" fetchpriority="high" decoding="async" width="900" height="900">
+      </figure>
     </section>
     <section class="section tight">
       <div class="cv-grid">
@@ -40,11 +60,11 @@
         <p class="lead" data-i18n="experienceLead">A timeline connecting architectural design, competition strategy, project development and private teaching.</p>
       </div>
       <div class="timeline">
-        <article class="timeline-item reveal"><time>2024 - Today</time><div><h3>Entwurfsleitung / Design Direction</h3><p data-i18n="timelineCurrent">Concept and design direction for competitions, acquisition and early-phase project development.</p></div></article>
+        <article class="timeline-item reveal"><time>2024 - Today</time><div><h3>Entwurfsleitung / Design Direction, MOW Architekten</h3><p data-i18n="timelineCurrent">Concept and design direction for competitions, acquisition and early-phase project development.</p></div></article>
         <article class="timeline-item reveal"><time>2021 - 2024</time><div><h3>Gründer, Nikola Rubic Architektur GmbH</h3><p data-i18n="timelineFounder">Independent architectural practice with focus on concept design, general planning, acquisition and residential/commercial projects.</p></div></article>
         <article class="timeline-item reveal"><time>2022 - 2023</time><div><h3>Privatdozent, IU Internationale Hochschule</h3><p data-i18n="timelineLecturer">Private lecturer for architectural design, with focus on public buildings and practice-oriented studio teaching.</p></div></article>
         <article class="timeline-item reveal"><time>2017 - 2020</time><div><h3>Projektleitender Projektentwickler, Karrié Projektentwicklung</h3><p data-i18n="timelineDeveloper">Development management for residential and office projects, LPH 1-4, feasibility, calculations and coordination.</p></div></article>
-        <article class="timeline-item reveal"><time>2012 - 2017</time><div><h3>msm architekten</h3><p data-i18n="timelineMsm">Project-leading architect, design and acquisition; later team lead for competitions and large-scale architectural concepts.</p></div></article>
+        <article class="timeline-item reveal"><time>2012 - 2017</time><div><h3>Teamleiter Entwurf, msm architekten</h3><p data-i18n="timelineMsm">Project-leading architect, design and acquisition; later team lead for competitions and large-scale architectural concepts.</p></div></article>
       </div>
     </section>
   </main>
